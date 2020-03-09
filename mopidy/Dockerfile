@@ -34,6 +34,7 @@ RUN set -ex \
 	Mopidy-Moped \
         Mopidy-GMusic \
 	Mopidy-Iris \
+	Mopidy-TuneIn \
  && apt-get purge --auto-remove -y \
         curl \
         gcc \
